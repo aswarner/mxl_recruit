@@ -1,23 +1,34 @@
+/*-----------------------------------------------------------------------------
+* merge_checker.cpp
+* 
+* NAME: Yourname Here
+* ---------------------------------------------------------------------------*/
+
 #include <iostream>
 // You can add additional libraries if you need them.
 
 using namespace std;
 
+// Linked list singly-linked node struct, including int values
 struct Node
 {
     int value;
     Node *next;
 };
 
+// Put complexity solution here!
 Node* check_merge(Node* a, Node* b) {
-  // Put all of your code here!
+  // Put your solution code here!
 	return NULL;
 }
 
+// Run test(s) of check_merge and print displays, results, etc. as applicable.
 int main() {
 	// You can add additional unit tests here as you feel appropriate, to show
-	// the robustness of your solution.
+	// the robustness of your solution. Helper functions are encouraged to make
+	// unit tests more modular.
 
+	// TEST 1: Nominal test with two lists (Author: Joseph Yates)
 	// Build two linked lists, have one point to a common node
 	Node* one = NULL;
 	Node* two = NULL;
